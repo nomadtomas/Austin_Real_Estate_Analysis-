@@ -7,7 +7,7 @@ from splinter import Browser
 from selenium import webdriver
 
 executable_path = {'executable_path':'/usr/local/bin/chromedriver'}
-browser = Browser('chrome', **executable_path)#, headless= False)
+browser = Browser('chrome', **executable_path)
 
 client = pymongo.MongoClient()
 db = client.realtor
@@ -16,6 +16,9 @@ pages = db.main_pages
 realtor_url = "https://www.realtor.com/realestateandhomes-search/Austin_TX/pg-"
 
 def realtorScrape():
+    '''
+    Scrape entire webpage content and load to mongodb database
+    '''
     browser.visit(realtor_url)
     html = browser.html
     soup = bs(html,'html.parser')
@@ -26,7 +29,7 @@ def realtorScrape():
 
 
     for x in range(1,int(lst_num)+1):
-        response = browser.visit(realtor_url + str(x))
+        browser.visit(realtor_url + str(x))
         html = browser.html
         soup = bs(html,'html.parser')
         pages.insert_one({'html': html, 'time_scraped': time.ctime()})    

@@ -3,13 +3,14 @@ import requests
 import pymongo
 import time
 
-#create connection to mongodb
-#conn = "mongodb://localhost:27017"
 client = pymongo.MongoClient()
 db = client.realtyaus
 pages = db.main_pages
 
 def ausrealtyScrape():
+    '''
+    Scrape entire webpage content and load to mongodb database
+    '''
     #establish url to scrape
     realtyaus_url = "https://www.realtyaustin.com/austin-home-search.php?p="
     response = requests.get(realtyaus_url)

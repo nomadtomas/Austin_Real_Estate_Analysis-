@@ -5,9 +5,16 @@ from austransformer import aus_realty_df
 
 
 def main():
+    '''
+    Iterates through dataframe webpage object and runs transformer
+    '''
+
+    #creates connection to mongodb
     client = pymongo.MongoClient()
     db = client.realtyaus
     collection = db.main_pages
+    
+    #updates clean values to new table in database
     clean_collection = db.aus_realty_data
    
     def transform_data(row):
