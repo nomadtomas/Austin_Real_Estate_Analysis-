@@ -6,7 +6,7 @@ from austransformer import aus_realty_df
 
 def main():
     '''
-    Iterates through dataframe webpage object and runs transformer
+    Iterates through dataframe webpage object and runs transformer to clean data from html objects
     '''
 
     #creates connection to mongodb
@@ -23,6 +23,8 @@ def main():
 
     df = aus_realty_df(collection)
     df['id'] = df['mls_id'] + df['time']
+    
+    #drops duplicate listings based on mls id
     clean_df = df.drop_duplicates('mls_id')
     clean_df.apply(transform_data, axis=1)
 

@@ -3,6 +3,7 @@ import requests
 import pymongo
 import time
 
+#creates connection to mongodb database table
 client = pymongo.MongoClient()
 db = client.realtyaus
 pages = db.main_pages

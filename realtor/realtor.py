@@ -9,6 +9,7 @@ from selenium import webdriver
 executable_path = {'executable_path':'/usr/local/bin/chromedriver'}
 browser = Browser('chrome', **executable_path)
 
+#creates connection to mongodb database table
 client = pymongo.MongoClient()
 db = client.realtor
 pages = db.main_pages

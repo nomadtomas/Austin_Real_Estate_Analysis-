@@ -6,8 +6,11 @@ from bs4 import BeautifulSoup as bs
 
 
 def aus_realty_df(collection):
-    #retrieved data from mongo into a dataframe
+    '''
     
+    '''
+
+    #retrieved data from mongo into a dataframe
     df = pd.DataFrame(list(collection.find()))
     data = df[['html', 'time_scraped']]
 
