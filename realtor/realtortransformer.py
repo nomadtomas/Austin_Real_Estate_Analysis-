@@ -7,6 +7,20 @@ import re
 
 
 def realtor_df(collection):
+    '''
+    Iterates through row objects applying the convert_data function to strip data of html and xlm objects
+
+    Parameters:
+    -----------
+    collection (mongodb connection): connection to db to extract data to be converted
+
+    Returns:
+    --------
+    Dataframe:
+        Processed dataframe of real estate parameters 
+    '''
+
+    #retrieved data from mongo into a dataframe
     df = pd.DataFrame(list(collection.find()))
     data= df[['html', 'time_scraped']]
 
@@ -28,9 +42,26 @@ def realtor_df(collection):
     return realtor_df
     
 def conver_data(data):
+    '''
+    Convert html data from realtyaus database into dataframe by obtaining key elements from 
+    each webpage.
     
+    Parameters:
+    -----------
+    data (dataframe): html object data
+
+    Returns:
+    --------
+    Dataframe: df of housing parameters of mlsid, subdiv, address, loc, bed, bath, 
+    sqft, acre, dtype, price, status, statusext, photo
+    '''
+
+    #initiate beautiful soup html.parser
     soup = bs(data, 'html.parser')
+    
+    #utilized find_all to obtain elements location
     listings = soup.find_all(class_='srp-body')
+
     address = [x.get_text().split('\n')[2].strip() for x in listings[0].find_all(class_='seo-wrap hide')]
     city = [x.get_text().split('\n')[3].strip() for x in listings[0].find_all(class_='seo-wrap hide')]
     state = [x.get_text().split('\n')[4].strip() for x in listings[0].find_all(class_='seo-wrap hide')]
@@ -64,12 +95,26 @@ def conver_data(data):
         'lon': lon,
         'photos': photos
     }
-    
+
+    #convert dictionary into pandas dataframe, used pd.Series to assure all parameter lengths are equal lenght
     df = pd.DataFrame([pd.Series(value, name=k) for k, value in data.items()]).T
     
     return df
 
 def clean_df(total_df):
+    '''
+    Updates dataframe data types
+    
+    Parameters:
+    -----------
+    data (dataframe): real estate columns to be updated
+
+    Returns:
+    --------
+    Dataframe: updated dataframe with proper data types.
+    '''
+    
+    #clean columns 
     total_df['cost'] = total_df['price'].str.replace(r'\D', '').astype('float')
     total_df['beds'] = total_df['beds'].str.replace(r'[a-zA-Z]', '').astype('float')
     total_df['baths'] = total_df['baths'].str.replace(r'[a-zA-Z+]', '').astype('float')

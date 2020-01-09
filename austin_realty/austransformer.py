@@ -2,12 +2,20 @@ import pandas as pd
 import numpy as np
 import pymongo
 from bs4 import BeautifulSoup as bs
-#from aus_realty_clean import main
 
 
 def aus_realty_df(collection):
     '''
-    
+    Iterates through row objects applying the convert_data function to strip data of html and xlm objects
+
+    Parameters:
+    -----------
+    collection (mongodb connection): connection to db to extract data to be converted
+
+    Returns:
+    --------
+    Dataframe:
+        Processed dataframe of real estate parameters 
     '''
 
     #retrieved data from mongo into a dataframe
@@ -31,6 +39,14 @@ def convert_data(data):
     Convert html data from realtyaus database into dataframe by obtaining key elements from 
     each webpage.
     
+    Parameters:
+    -----------
+    data (dataframe): html object data
+
+    Returns:
+    --------
+    Dataframe: df of housing parameters of mlsid, subdiv, address, loc, bed, bath, 
+    sqft, acre, dtype, price, status, statusext, photo
     '''
     
     #initiate beautiful soup html.parser
@@ -38,6 +54,7 @@ def convert_data(data):
     
     #utilized find_all to obtain elements location
     listings = soup.find_all(class_='articleset listings colset_4')
+
     mlsids = listings[0].find_all('li', class_="data-mlsid")
     subdivs = listings[0].find_all('li', class_="data-subdivision")
     address = [x.get_text() for x in listings[0].find_all('li', class_="data-address")]
@@ -62,7 +79,7 @@ def convert_data(data):
     acre = [x.get_text(strip=True) for x in acres]
     dtype = [x.get_text(strip=True) for x in dtypes]
     price = [x.get_text(strip=True) for x in prices]
-    statu = [x.get_text(strip=True) for x in status]
+    status = [x.get_text(strip=True) for x in status]
     statusext = [x.get_text(strip=True) for x in statusexts]
     photo = [x.img['data-src'] for x in photos]
     
@@ -78,7 +95,7 @@ def convert_data(data):
         'acre': acre,
         'data_type': dtype,
         'price': price,
-        'status': statu,
+        'status': status,
         'status_extra': statusext,
         'photo': photo
     }
@@ -89,7 +106,17 @@ def convert_data(data):
     return df
 
 def clean_df(data):
+    '''
+    Updates dataframe data types
     
+    Parameters:
+    -----------
+    data (dataframe): real estate columns to be updated
+
+    Returns:
+    --------
+    Dataframe: updated dataframe with proper data types.
+    '''
     #clean columns 
     data['mls_id'] = data['mlsid'].str.replace(r'\D', '').astype('int')
     data['city'] = data['location'].map(lambda x: x.split(',')[0])
@@ -98,7 +125,7 @@ def clean_df(data):
     data['sq_ft'] = data['sqft'].str.replace(r'\D', '').astype('float')
     data['acres'] = data['acre'].str.replace(r'AC', '').astype('float')
     data['beds'] = data['bedrooms'].str.replace(r'\D', '').astype('float')
-    data['zip'] = data['location'].str.replace(r'\D', '')
+    data['zip'] = data['location'].str.replace(r'\D', '').astype('category')
     data['cost'] = data['price'].str.replace(r'\D', '').astype('float')
     data['time'] = pd.to_datetime(data['time'])
     data['source'] = 'austin_realty'
