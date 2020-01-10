@@ -6,6 +6,7 @@ Austin’s real estate market is undeniably on the rise.  The growing economy an
 ## Table of Contents
 
 * [General Information](#general-information)
+    * [Data Gathering](#data-gatherin)
     * [Hypothesis Testing](#hypothesis-testing)
     * [Methodology](#methodology)
 * [Technologies](#technologies)
@@ -16,8 +17,12 @@ Austin’s real estate market is undeniably on the rise.  The growing economy an
 
 
 ## General Information
+Investing in a home is a milestone many aim to achieve, whether viewed as just a starter home or potential AirBnB investment, it all begins with data.  This project began with just a simple hypothesis.  But it’s potential with further enrichment is quite limitless. 
 
 ![](images/distributions.png)
+
+### Data Gathering:
+
 
 ### Hypothesis Testing:
 
