@@ -16,11 +16,17 @@ Austin’s real estate market is undeniably on the rise.  The growing economy an
 
 ![](images/distributions.png)
 
-#### Hypothesis
+#### Hypothesis:
+
+
 
 >**Ho : μ = 0**
 
->**Ho : μ != 0**
+>**Ho : μ $\neq$ 0**
+
+#### Methodology:
+
+Data used in the study included square footage, number of beds, baths, and value for all single and multi-family homes, condo, and townhomes with active listings in the Austin housing market from December 2019 to January 2020, inside the city limits.  This data was used to calculate averages and test for significance between equal ratio vs unequal ratio homes. All figures shown in the article represent the mean value for each data point unless otherwise specified. The IQR (interquartile range) method of outlier detection was implemented as part of the data cleansing process.
 
 ## Technologies
 
