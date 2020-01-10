@@ -31,9 +31,9 @@ The null hypothesis is that the ratio between bedrooms to bathrooms has no stati
 
 Alternative hypothesis is that there is a significant difference to the mean value
 
->**Ho : μ = 0**
+>**H0: μ = μ 0**
 
->**Ho : μ != 0**
+>**H1: μ ≠ μ 0 **
 
 ###### Step 2: Select test statistic
 To test this hypothesis the z-test was chosen.
@@ -48,13 +48,17 @@ A z-test is a statistical test used to determine whether two population means ar
 ###### Step 3: Set up decision rule
 
 <p align="center">
-  <img src="images/decisionrule.png">
+  <img src="images/normdist.png">
 </p>
+
 ###### Step 4: Compute the test statistic
+This will be a two-tailed test
 
 ![](images/z-score.png)
 
 ###### Step 5: Conclusion
+
+
 
 Sample information:
 -------------------------------
