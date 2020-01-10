@@ -9,6 +9,9 @@ Austin’s real estate market is undeniably on the rise.  The growing economy an
     * [Hypothesis Testing](#hypothesis-testing)
     * [Methodology](#methodology)
 * [Technologies](#technologies)
+    * [Database](#database)
+    * [Python](#python)
+    * [Visualization](#visualization)
 * [Setup](#setup)
 
 
@@ -29,8 +32,9 @@ Alternative hypothesis is that there is a significant impact to the mean value
 
 ###### Step 2: Select test statistic
 To test this hypothesis the z-test was chosen.
+The significance level was set at: 0.05
 
-A z-test is a statistical test used to determine whether two population means are different when the variances are known and the sample size is large. At significance alpha of: 0.05
+A z-test is a statistical test used to determine whether two population means are different when the variances are known and the sample size is large.
 
 <p align="center">
   <img src="images/z-statistic.png">
@@ -40,6 +44,8 @@ A z-test is a statistical test used to determine whether two population means ar
 
 
 ###### Step 4: Compute the test statistic
+
+![](images/z-score.png)
 
 ###### Step 5: Conclusion
 
