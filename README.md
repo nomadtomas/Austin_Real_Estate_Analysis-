@@ -75,8 +75,8 @@ Data used in the study included square footage, number of beds, baths, and value
   <div class="column">
       <div class="row">
         <img src="images/python.jpg" alt="Snow" width="100" height="70" style="padding-right: 10px; padding-bottom: 20px;">
-        <img src="images/jupyter.png" alt="Forest" width="70" height="70">
-        <img src="images/mongodb.jpeg" alt="Mountains" width="70" height="50">
+        <img src="images/jupyter.png" alt="Forest" width="70" height="70" style="padding-right: 10px; padding-bottom: 20px;">
+        <img src="images/mongodb.jpeg" alt="Mountains" width="70" height="50" style="padding-right: 10px; padding-bottom: 20px;">
           <p>Python: pandas, scipy, matplotlib, pymongo, sklearn, folium</p>
       </div>
   </div>
