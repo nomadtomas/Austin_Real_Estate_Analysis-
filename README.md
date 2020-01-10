@@ -72,7 +72,7 @@ Data used in the study included square footage, number of beds, baths, and value
 
 ## Technologies
 <div class="row">
-  <div class="column">
+  <div class="column" align="center">
       <div class="row">
         <img src="images/python.jpg" alt="python" width="100" height="70" style="padding-right: 20px; padding-bottom: 40px;">
         <img src="images/jupyter.png" alt="jupyter" width="70" height="70" style="padding-right: 20px; padding-bottom: 40px;">
