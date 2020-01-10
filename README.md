@@ -5,17 +5,17 @@ Austin’s real estate market is undeniably on the rise.  The growing economy an
 
 ## Table of Contents
 
+* [General Information](#general-information)
 * [Technologies](#technologies)
+* [Setup](#setup)
 
 
+## General Information
 
-
-
-
-
-
-
-
+![](images/distributions.png)
 
 
 ## Technologies
+
+
+## Setup
