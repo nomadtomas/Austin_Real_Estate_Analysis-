@@ -26,20 +26,18 @@ The null hypothesis is that the ratio between bedrooms to bathrooms has no stati
 >**Ho : μ != 0**
 
 
-###### Z-test: To test this hypothesis the z-test was chosen.
+##### Z-test: To test this hypothesis the z-test was chosen.
 
 A z-test is a statistical test used to determine whether two population means are different when the variances are known and the sample size is large.
 
 <p align="center">
   <img src="images/z-statistic.png">
-    
-  <p>mean of sample</p>
-  <p>mean of population</p>
-  <p>standard deviation of population</p>
-  <p>square root no. of observations</p>
-    
 </p>
 
+Sample size:
+---------------------------
+Adjusted Equal count: 1,424 
+Adjusted Unequal count: 2,894
 #### Methodology:
 
 Data used in the study included square footage, number of beds, baths, and value for all single and multi-family homes, condo, and townhomes with active listings in the Austin housing market from December 2019 to January 2020, inside the city limits.  This data was used to calculate averages and test for significance between equal ratio vs unequal ratio homes. All figures shown in the article represent the mean value for each data point unless otherwise specified. The IQR (interquartile range) method of outlier detection was implemented as part of the data cleansing process.
