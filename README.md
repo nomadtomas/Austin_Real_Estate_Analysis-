@@ -13,9 +13,9 @@ Austin’s real estate market is undeniably on the rise.  The growing economy an
 ## General Information
 
 ![](images/distributions.png)
-
+<center>
 >**Ho : μ = 0**
-
+</center>
 ## Technologies
 
 
