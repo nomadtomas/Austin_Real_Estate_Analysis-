@@ -77,11 +77,10 @@ Data used in the study included square footage, number of beds, baths, and value
         <img src="images/python.jpg" alt="python" width="100" height="70" style="padding-right: 20px; padding-bottom: 40px;">
         <img src="images/jupyter.png" alt="jupyter" width="70" height="70" style="padding-right: 20px; padding-bottom: 40px;">
         <img src="images/mongodb.jpeg" alt="mongodb" width="70" height="50" style="padding-left: 10px; padding-bottom: 40px;">
-          <p>Python: pandas, scipy, matplotlib, pymongo, sklearn, folium</p>
       </div>
   </div>
   <div class="column">
-
+    <p>Python: pandas, scipy, matplotlib, pymongo, sklearn, folium</p>
   </div>
   <div class="column">
 
