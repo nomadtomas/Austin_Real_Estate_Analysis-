@@ -62,13 +62,13 @@ Data used in the study included square footage, number of beds, baths, and value
 ## Technologies
 <div class="row">
   <div class="column">
-    <img src="images/python.jpg" alt="Snow" width="80" height="80">
+    <img src="images/python.jpg" alt="Snow" width="80" height="60">
   </div>
   <div class="column">
-    <img src="images/jupyter.png" alt="Forest" width="80" height="80">
+    <img src="images/jupyter.png" alt="Forest" width="80" height="60">
   </div>
   <div class="column">
-    <img src="images/mongodb.jpeg" alt="Mountains" width="80" height="80">
+    <img src="images/mongodb.jpeg" alt="Mountains" width="80" height="60">
   </div>
 </div>
 Python:{libraries} pandas, scipy, matplotlib, pymongo, sklearn, folium
