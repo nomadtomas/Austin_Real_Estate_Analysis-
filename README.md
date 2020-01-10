@@ -60,10 +60,17 @@ Adjusted unequal sample-size: 2,894
 Data used in the study included square footage, number of beds, baths, and value for all single and multi-family homes, condo, and townhomes with active listings in the Austin housing market from December 2019 to January 2020, inside the city limits.  This data was used to calculate averages and test for significance between equal ratio vs unequal ratio homes. All figures shown in the article represent the mean value for each data point unless otherwise specified. The IQR (interquartile range) method of outlier detection was implemented as part of the data cleansing process.
 
 ## Technologies
-
-<p align="center">
-  <img src="images/jupyter.png"><img src="images/python.png">
-</p>
+<div class="row">
+  <div class="column">
+    <img src="images/python.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/jupyter.png" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="images/mongodb.jpeg" alt="Mountains" style="width:100%">
+  </div>
+</div>
 Python:{libraries} pandas, scipy, matplotlib, pymongo, sklearn, folium
 Mongodb
 Tableau
