@@ -57,7 +57,7 @@ This will be a two-tailed test
 ![](images/z-score.png)
 
 ###### Step 5: Conclusion
-
+Given the results of our test we reject H0 that the means are the same, due to the z-score is 3.386 with a p-value well below our 0.05 significance level. This means there is enough evidence to say that ratios between homes do have an effect on home values.
 
 
 Sample information:
@@ -73,16 +73,17 @@ Data used in the study included square footage, number of beds, baths, and value
 ## Technologies
 <div class="row">
   <div class="column">
-    <img src="images/python.jpg" alt="Snow" width="80" height="60">
+    <img src="images/python.jpg" alt="Snow" width="80" height="50">
+      <p>Python: pandas, scipy, matplotlib, pymongo, sklearn, folium</p>
   </div>
   <div class="column">
-    <img src="images/jupyter.png" alt="Forest" width="80" height="60">
+    <img src="images/jupyter.png" alt="Forest" width="60" height="60">
   </div>
   <div class="column">
-    <img src="images/mongodb.jpeg" alt="Mountains" width="80" height="60">
+    <img src="images/mongodb.jpeg" alt="Mountains" width="70" height="60">
   </div>
 </div>
-Python:{libraries} pandas, scipy, matplotlib, pymongo, sklearn, folium
+
 Mongodb
 Tableau
 Docker
