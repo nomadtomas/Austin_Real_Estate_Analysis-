@@ -18,11 +18,21 @@ Austin’s real estate market is undeniably on the rise.  The growing economy an
 
 #### Hypothesis:
 
+The null hypothesis is that the ratio between bedrooms to bathrooms has no statistically significant impact to the mean value of homes.
 
 
 >**Ho : μ = 0**
 
->**Ho : μ $\neq$ 0**
+>**Ho : μ != 0**
+
+
+###### Z-test: To test this hypothesis the z-test was chosen.
+
+A z-test is a statistical test used to determine whether two population means are different when the variances are known and the sample size is large.
+
+![](images/z-statistic.png)
+
+
 
 #### Methodology:
 
