@@ -6,7 +6,7 @@ Austin’s real estate market is undeniably on the rise.  The growing economy an
 ## Table of Contents
 
 * [General Information](#general-information)
-    * [Data Gathering](#data-gatherin)
+    * [Data Gathering](#data-gathering)
     * [Hypothesis Testing](#hypothesis-testing)
     * [Methodology](#methodology)
 * [Technologies](#technologies)
@@ -17,7 +17,7 @@ Austin’s real estate market is undeniably on the rise.  The growing economy an
 
 
 ## General Information
-Investing in a home is a milestone many aim to achieve, whether viewed as just a starter home or potential AirBnB investment, it all begins with data.  This project began with just a simple hypothesis.  But it’s potential with further enrichment is quite limitless. 
+Investing in a home is a milestone many aim to achieve, whether viewed as just a starter home or potential AirBnB investment, it all begins with data.  This project began with just a simple believe to be tested: The ratio between bedrooms to bathrooms have an impact on home values. But it’s potential with further enrichment is quite limitless. 
 
 ![](images/distributions.png)
 
@@ -27,9 +27,9 @@ Investing in a home is a milestone many aim to achieve, whether viewed as just a
 ### Hypothesis Testing:
 
 ###### Step 1: Set up the hypothesis
-The null hypothesis is that the ratio between bedrooms to bathrooms has no statistically significant impact to the mean value of homes.
+The null hypothesis is that the ratio between bedrooms to bathrooms has no statistically significant difference to the mean value of homes.
 
-Alternative hypothesis is that there is a significant impact to the mean value
+Alternative hypothesis is that there is a significant difference to the mean value
 
 >**Ho : μ = 0**
 
@@ -47,7 +47,9 @@ A z-test is a statistical test used to determine whether two population means ar
 
 ###### Step 3: Set up decision rule
 
-
+<p align="center">
+  <img src="images/decisionrule.png">
+</p>
 ###### Step 4: Compute the test statistic
 
 ![](images/z-score.png)
