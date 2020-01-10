@@ -30,9 +30,9 @@ The null hypothesis is that the ratio between bedrooms to bathrooms has no stati
 
 A z-test is a statistical test used to determine whether two population means are different when the variances are known and the sample size is large.
 
-![](images/z-statistic.png)
-
-
+<p align="center">
+  <img width="200" height="100" src="images/z-statistic.png">
+</p>
 
 #### Methodology:
 
