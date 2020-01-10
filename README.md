@@ -6,7 +6,7 @@ Austin’s real estate market is undeniably on the rise.  The growing economy an
 ## Table of Contents
 
 * [General Information](#general-information)
-    * [Hypothesis](#hypothesis)
+    * [Hypothesis Testing](#hypothesis-testing)
     * [Methodology](#methodology)
 * [Technologies](#technologies)
 * [Setup](#setup)
@@ -16,17 +16,19 @@ Austin’s real estate market is undeniably on the rise.  The growing economy an
 
 ![](images/distributions.png)
 
-#### Hypothesis:
+### Hypothesis Testing:
 
+###### Step 1: 
 The null hypothesis is that the ratio between bedrooms to bathrooms has no statistically significant impact to the mean value of homes.
 
+Alternative hypothesis is that there is a significant impact to the mean value
 
 >**Ho : μ = 0**
 
 >**Ho : μ != 0**
 
-
-##### Z-test: To test this hypothesis the z-test was chosen.
+###### Step 2: 
+To test this hypothesis the z-test was chosen.
 
 A z-test is a statistical test used to determine whether two population means are different when the variances are known and the sample size is large.
 
@@ -34,11 +36,15 @@ A z-test is a statistical test used to determine whether two population means ar
   <img src="images/z-statistic.png">
 </p>
 
+###### Step 3: 
+
+
+
 Sample size:
----------------------------
-Adjusted Equal count: 1,424 
+-------------------------------
+Adjusted Equal count: 1,424 <br> 
 Adjusted Unequal count: 2,894
-#### Methodology:
+### Methodology:
 
 Data used in the study included square footage, number of beds, baths, and value for all single and multi-family homes, condo, and townhomes with active listings in the Austin housing market from December 2019 to January 2020, inside the city limits.  This data was used to calculate averages and test for significance between equal ratio vs unequal ratio homes. All figures shown in the article represent the mean value for each data point unless otherwise specified. The IQR (interquartile range) method of outlier detection was implemented as part of the data cleansing process.
 
