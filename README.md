@@ -61,12 +61,14 @@ Given the results of our test we conclude that we must reject the null-hypothesi
 The z-score of 3.386 with a p-value of 0.001 well below our 0.05 significance level. 
 
 
-Sample information:
--------------------------------
+### Sample Information:
+
 Adjusted equal sample-size: 1,424 <br> 
 Adjusted unequal sample-size: 2,894
 
-
+<p align="center">
+  <img src="images/sampleJointPlot.png">
+</p>
 ### Methodology:
 
 Data used in the study included square footage, number of beds, baths, and value for all single and multi-family homes, condo, and townhomes with active listings in the Austin housing market from December 2019 to January 2020, inside the city limits.  This data was used to calculate averages and test for significance between equal ratio vs unequal ratio homes. All figures shown in the article represent the mean value for each data point unless otherwise specified. The IQR (interquartile range) method of outlier detection was implemented as part of the data cleansing process.
