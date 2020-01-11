@@ -67,7 +67,7 @@ Adjusted equal sample-size: 1,424<br>
 Adjusted unequal sample-size: 2,894
 
 <p align="center">
-  <img src="images/sampleJointPlot.png">
+  <img src="images/sampleJointPlot.png" width="200" height="220">
 </p>
 ### Methodology:
 
