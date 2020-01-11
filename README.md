@@ -57,7 +57,8 @@ This will be a two-tailed test
 ![](images/z-score.png)
 
 ###### Step 5: Conclusion
-Given the results of our test we reject H0 that the means are the same, due to the z-score is 3.386 with a p-value well below our 0.05 significance level. This means there is enough evidence to say that ratios between homes do have an effect on home values.
+Given the results of our test we conclude that we must reject the null-hypothesis.  There is enough evidence to say that ratios between homes do have an effect on home values.
+The z-score of 3.386 with a p-value of 0.001 well below our 0.05 significance level. 
 
 
 Sample information:
