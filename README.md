@@ -63,10 +63,9 @@ The z-score of 3.386 with a p-value of 0.001 well below our 0.05 significance le
 
 ### Sample Information:
 <p align="center">
-Original Total sample-size: 4,880                                             Adjested Total sample-size: 4,318<br>
-Original Equal sample-size: 1,605                                             Adjusted Equal sample-size: 1,424<br> 
-Original Unequal sample-size: 3,275                                           Adjusted Unequal sample-size: 2,894
-
+<p stype="padding-right: 40">Original Total sample-size: 4,880</p>                   Adjested Total sample-size: 4,318<br>
+<p>Original Equal sample-size: 1,605</p>                                             Adjusted Equal sample-size: 1,424<br> 
+<p>Original Unequal sample-size: 3,275</p>                                           Adjusted Unequal sample-size: 2,894
 
   <img src="images/Initial Sample.png" width="400">
   <img src="images/Adjusted Sample.png" width="400">
