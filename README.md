@@ -47,7 +47,7 @@ A z-test is a statistical test used to determine whether two population means ar
 
 ###### Step 3: Set up decision rule
 
-<p align="center">
+<p width="400" align="center">
   <img src="images/normdist.png">
 </p>
 
