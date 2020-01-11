@@ -62,14 +62,14 @@ The z-score of 3.386 with a p-value of 0.001 well below our 0.05 significance le
 
 
 ### Sample Information:
-<table style="width:120%">
+<table style="width:120%", align="center">
   <tr>
     <td>Original Total sample-size: 4,880</td>
     <td>Adjested Total sample-size: 4,318</td>
   </tr>
   <tr>
     <td>Original Equal sample-size: 1,605</td>
-    <td>AdjestedEqual sample-size: 1,424</td>
+    <td>Adjested Equal sample-size: 1,424</td>
   </tr>
   <tr>
     <td>Original Unequal sample-size: 3,275</td>
