@@ -47,7 +47,7 @@ A z-test is a statistical test used to determine whether two population means ar
 
 ###### Step 3: Set up decision rule
 
-<p width="300" align="center">
+<p style="width:80%" align="center">
   <img src="images/normdist.png">
 </p>
 
@@ -62,7 +62,7 @@ The z-score of 3.386 with a p-value of 0.001 well below our 0.05 significance le
 
 
 ### Sample Information:
-<table style="width:120%", align="center">
+<table style="width:120%" align="center">
   <tr>
     <td>Original Total sample-size: 4,880</td>
     <td>Adjested Total sample-size: 4,318</td>
