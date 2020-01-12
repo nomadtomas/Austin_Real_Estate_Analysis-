@@ -93,13 +93,15 @@ The IQR (interquartile range) method of outlier detection was implemented as par
   <img src="images/Adjusted Sample.png" width="400">
 </p>
 
+
 ## Technologies
 <p align="center">
   <img src="images/logos.png">
 </p>
 
-Mongodb
-Tableau
-Docker
+Data Gathering: Beautiful Soup, Selenium<br>
+Data Storage: Mongodb<br>
+Data Analysis: Python 3, Numpy, Pandas, Scikit-Learn, Scipy<br>
+Data Visualization: Tableau, Folium, Matplotlib, Seaborn
 
 ## Future Improvements
