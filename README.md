@@ -25,11 +25,11 @@ Investing in a home is a milestone many aim to achieve, whether viewed as just a
   <img src="images/realtylogos.png">
 </p>
 
-Data used for this analysis was gathered from Zillow, Realtor, and Realty Austin websites.  The data gathering techniques where separated into three phases.  All data was stored on a mongodb database.
+Data used for this analysis was gathered from Zillow, Realtor, and Realty Austin websites.  The data gathering techniques where separated into three phases, which are located under the ```src``` folder.  All data was stored on a mongodb database.
 
-1)   Scraping:  Three scrappers were used to gather current listing information from each site, code can be found under scrapper folder.  
-2)  Transform:  It was transformed into a clean pandas dataframe through custom functions, located on the data_transformer folder.
-3)  Cleansing:  Functions on the data_cleansing folder utilized the transform functions to clean the data and store clean data back to mongodb.   
+1)   Scraping:  Three scrappers were used to gather current listing information from each site, code can be found under ```scrapper``` folder.  
+2)  Transform:  It was transformed into a clean pandas dataframe through custom functions, located on the ```data_transformer``` folder.
+3)  Cleansing:  Functions on the ```data_cleansing``` folder utilized the transform functions to clean the data and store clean data back to mongodb.   
 
 ### Data Information:
 Data used in the study included square footage, number of beds, baths, and value for all single and multi-family homes, condo, and townhomes with active listings in the Austin housing market from December 2019 to January 2020, inside the city limits. This data was used to calculate averages and test for significance between equal ratio vs unequal ratio homes. All figures shown in the article represent the mean value for each data point unless otherwise specified. 
@@ -102,4 +102,4 @@ Mongodb
 Tableau
 Docker
 
-## Setup
+## Future Improvements
