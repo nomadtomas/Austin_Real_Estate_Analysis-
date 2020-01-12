@@ -72,6 +72,8 @@ The z-score of 3.386 > 1.96 with a p-value of 0.001 well below our 0.05 signific
 
 
 ### Sample Information:
+Detailed Information on the analysis process is on ```real_estate_analysis.ipynb``` file, under the ```notebooks``` folder.
+
 The IQR (interquartile range) method of outlier detection was implemented as part of the data cleansing process.
 
 <table style="width:120%" align="center">
@@ -91,6 +93,10 @@ The IQR (interquartile range) method of outlier detection was implemented as par
 <p align="center">
   <img src="images/Original Sample.png" width="400">
   <img src="images/Adjusted Sample.png" width="400">
+</p>
+<p align="center">
+  <img src="images/count_tables.png">
+  <img src="images/maps.png">
 </p>
 
 
