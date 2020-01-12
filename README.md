@@ -96,6 +96,7 @@ The IQR (interquartile range) method of outlier detection was implemented as par
   <img src="images/count_tables.png">
   <img src="images/map.png">
 </p>
+The map shown only displays 2,000 of my 4,318 total sample.  
 
 ## Technologies
 <p align="center">
