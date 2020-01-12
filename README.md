@@ -93,12 +93,9 @@ The IQR (interquartile range) method of outlier detection was implemented as par
 <p align="center">
   <img src="images/Original Sample.png" width="400">
   <img src="images/Adjusted Sample.png" width="400">
-</p>
-<p align="center">
   <img src="images/count_tables.png">
-  <img src="images/maps.png">
+  <img src="images/map.png">
 </p>
-
 
 ## Technologies
 <p align="center">
