@@ -32,7 +32,7 @@ Data
 ###### Step 1: Set up the hypothesis
 The null hypothesis is that the ratio between bedrooms to bathrooms has no statistically significant difference to the mean value of homes.
 
-Alternative hypothesis is that there is a significant difference to the mean value
+Alternative hypothesis is that there is a significant difference to the mean value.
 
 >**H0: μ = μ 0**
 
@@ -49,7 +49,7 @@ A z-test is a statistical test used to determine whether two population means ar
 </p>
 
 ###### Step 3: Set up decision rule
-
+Reject the null hypothesis if test-statistic > 1.96 or if test-statistic < -1.96.
 <p align="center" style="width:10%" >
   <img src="images/normdist.png">
 </p>
@@ -80,7 +80,7 @@ The z-score of 3.386 with a p-value of 0.001 well below our 0.05 significance le
   </tr>
 </table>
 <p align="center">
-  <img src="images/Initial Sample.png" width="400">
+  <img src="images/Original Sample.png" width="400">
   <img src="images/Adjusted Sample.png" width="400">
 </p>
 
