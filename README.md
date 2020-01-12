@@ -113,7 +113,7 @@ Data Analysis: Python 3, Numpy, Pandas, Scikit-Learn, Scipy<br>
 Data Visualization: Tableau, Folium, Matplotlib, Seaborn
 
 ## Future Improvements
-• Enrich the dataset by continue to run scrapers over a 12 month-period.<br>  
-• Bring historic data to analyze market trends.<br>
+• Enrich the dataset by continue to run scrapers over a 12 month-period.
+• Bring historic data to analyze market trends.
 • Incorporate size of all rooms in of all homes.
 
