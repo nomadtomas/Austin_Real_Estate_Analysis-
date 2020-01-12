@@ -102,14 +102,18 @@ The IQR (interquartile range) method of outlier detection was implemented as par
   <img src="images/logos.png">
 </p>
 
-###### Database
+###### Database:
 Data Storage: Mongodb<br>
 
-###### Python
+###### Python:
 Data Gathering: Beautiful Soup, Selenium<br>
 Data Analysis: Python 3, Numpy, Pandas, Scikit-Learn, Scipy<br>
 
-###### Visualization
+###### Visualization:
 Data Visualization: Tableau, Folium, Matplotlib, Seaborn
 
 ## Future Improvements
+• Enrich the dataset by continue to run scrapers over a 12 month-period.<br>  
+• Bring historic data to analyze market trends.<br>
+• Incorporate size of all rooms in of all homes.
+
