@@ -2,7 +2,6 @@
 
 Austin’s real estate market is undeniably on the rise.  The growing economy and been a highlight of the cities allure, along with being named the best place to live in the US on 3 consecutive years: 2017, 2018, and 2019 by U.S News & World Report.  My analysis dives into the current Austin real estate market, from a bedroom to bathroom ratio starting point.  Does the bed-to-bath ratio of homes have a statistical impact to the value of homes?   
 
-
 ## Table of Contents
 
 * [General Information](#general-information)
@@ -22,7 +21,11 @@ Investing in a home is a milestone many aim to achieve, whether viewed as just a
 ![](images/distributions.png)
 
 ### Data Gathering:
+<p align="center">
+  <img src="images/realtylogos.png">
+</p>
 
+Data
 
 ### Hypothesis Testing:
 
@@ -33,7 +36,7 @@ Alternative hypothesis is that there is a significant difference to the mean val
 
 >**H0: μ = μ 0**
 
->**H1: μ ≠ μ 0 **
+>**H1: μ ≠ μ 0**
 
 ###### Step 2: Select test statistic
 To test this hypothesis the z-test was chosen.
@@ -80,6 +83,8 @@ The z-score of 3.386 with a p-value of 0.001 well below our 0.05 significance le
   <img src="images/Initial Sample.png" width="400">
   <img src="images/Adjusted Sample.png" width="400">
 </p>
+
+
 ### Methodology:
 
 Data used in the study included square footage, number of beds, baths, and value for all single and multi-family homes, condo, and townhomes with active listings in the Austin housing market from December 2019 to January 2020, inside the city limits.  This data was used to calculate averages and test for significance between equal ratio vs unequal ratio homes. All figures shown in the article represent the mean value for each data point unless otherwise specified. The IQR (interquartile range) method of outlier detection was implemented as part of the data cleansing process.
