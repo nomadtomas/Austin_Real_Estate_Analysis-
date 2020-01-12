@@ -5,7 +5,7 @@ Austin’s real estate market is undeniably on the rise.  The growing economy an
 ## Table of Contents
 
 * [General Information](#general-information)
-    * [Data Gathering](#data-gathering)
+    * [Data Inforation](#data)
     * [Hypothesis Testing](#hypothesis-testing)
     * [Methodology](#methodology)
 * [Technologies](#technologies)
@@ -20,12 +20,11 @@ Investing in a home is a milestone many aim to achieve, whether viewed as just a
 
 ![](images/distributions.png)
 
-### Data Gathering:
+### Data Information:
 <p align="center">
   <img src="images/realtylogos.png">
 </p>
-
-Data
+Data used for this analysis was gather from Zillow, Realtor, and Realty Austin websites.  Data used in the study included square footage, number of beds, baths, and value for all single and multi-family homes, condo, and townhomes with active listings in the Austin housing market from December 2019 to January 2020, inside the city limits. This data was used to calculate averages and test for significance between equal ratio vs unequal ratio homes. All figures shown in the article represent the mean value for each data point unless otherwise specified. 
 
 ### Hypothesis Testing:
 
@@ -65,6 +64,8 @@ The z-score of 3.386 with a p-value of 0.001 well below our 0.05 significance le
 
 
 ### Sample Information:
+The IQR (interquartile range) method of outlier detection was implemented as part of the data cleansing process.
+
 <table style="width:120%" align="center">
   <tr>
     <td>Original Total sample-size: 4,880</td>
@@ -83,11 +84,6 @@ The z-score of 3.386 with a p-value of 0.001 well below our 0.05 significance le
   <img src="images/Original Sample.png" width="400">
   <img src="images/Adjusted Sample.png" width="400">
 </p>
-
-
-### Methodology:
-
-Data used in the study included square footage, number of beds, baths, and value for all single and multi-family homes, condo, and townhomes with active listings in the Austin housing market from December 2019 to January 2020, inside the city limits.  This data was used to calculate averages and test for significance between equal ratio vs unequal ratio homes. All figures shown in the article represent the mean value for each data point unless otherwise specified. The IQR (interquartile range) method of outlier detection was implemented as part of the data cleansing process.
 
 ## Technologies
 <p align="center">
