@@ -5,7 +5,6 @@ Austin’s real estate market is undeniably on the rise.  The growing economy an
 ## Table of Contents
 
 * [General Information](#general-information)
-    * [Data](#data)
     * [Data Gathering](#data-gathering)
     * [Data Information](#data-information)
     * [Hypothesis Testing](#hypothesis-testing)
@@ -21,12 +20,11 @@ Investing in a home is a milestone many aim to achieve, whether viewed as just a
 
 ![](images/distributions.png)
 
-### Data:
+### Data Gathering:
 <p align="center">
   <img src="images/realtylogos.png">
 </p>
 
-### Data Gathering:
 Data used for this analysis was gather from Zillow, Realtor, and Realty Austin websites. 
 
 ### Data Information:
